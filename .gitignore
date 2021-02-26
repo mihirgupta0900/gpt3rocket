@@ -1,7 +1,7 @@
 
 node_modules/
 dist/
-yarn.lock
+package-json.lock
 coverage/
 tests/service-account.json
 .DS_STORE
