@@ -11,7 +11,8 @@
     "killdist": "rm -rf dist/ 2>/dev/null",
     "test": "npm run killdist && npm run build && node_modules/.bin/tape dist/tests/*.test.js",
     "coverage": "istanbul cover node_modules/.bin/tape ./dist/tests/*.test.js",
-    "r": "ts-node $1"
+    "r": "ts-node $1",
+    "prepare": "tsc"
   },
   "keywords": [
     "GPT3",
